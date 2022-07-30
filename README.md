@@ -11,7 +11,7 @@ Functionalities:
 3. User can exclude few people from the group while adding expense
 4. User can simplify debts - A owes money to B, B owes money to C. If B chooses to simplify debts, then A will pay to C directly
 
-Future plan: User can export their monthly summary of expenses and dues
+Future plan: User should be able to export their monthly summary of expenses and dues
 
 Extensible, modular and clean code
 Choice of data structure was important for extensibility of the code. Took some time to think through it.
