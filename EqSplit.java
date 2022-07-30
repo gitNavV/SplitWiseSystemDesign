@@ -1,5 +1,5 @@
 public class EqSplit extends Split {
-  EqSplit(Person person) {
+  public void EqSplit(Person person) {
     super(person);
   }
 }
