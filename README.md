@@ -13,6 +13,6 @@ Functionalities:
 
 Future plan: User should be able to export their monthly summary of expenses and dues
 
-Extensible, modular and clean code
+The code is extensible, modular and clean.
 Choice of data structure was important for extensibility of the code. Took some time to think through it.
 Started working from the first requirement and modelled other requirementson top of it.
