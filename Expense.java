@@ -1,51 +1,51 @@
 public class Expense {
-  int amount;
-  int whoPaid;
-  List<Split> parts;
-  Type type;
+  private final int amount;
+  private final int whoPaid;
+  private final List<Split> parts;
+  private final Type type;
   
-  Type {
+  private final enum Type {
     PERC,
     VAL,
     EQ
   }
   
-  Expense(int amount, int whoPaid, List<Split> parts, Type type) {
+  public void Expense(int amount, int whoPaid, List<Split> parts, Type type) {
     this.amount = amount;
     this.whoPaid = whoPaid;
     this.parts = parts;
     this.type = type;
   }
   
-  int getAmount() {
+  public int getAmount() {
       return amount;
   }
   
-  void setAmount(int amount) {
+  public void setAmount(int amount) {
     this.amount = amount;
   }
   
-  int getWhoPaid() {
+  public int getWhoPaid() {
       return whoPaid;
   }
   
-  void setWhoPaid(int whoPaid) {
+  public void setWhoPaid(int whoPaid) {
     this.whoPaid = whoPaid;
   }
   
-  List<Split> getParts() {
+  public List<Split> getParts() {
       return parts;
   }
   
-  void setParts(List<Split> parts) {
+  public void setParts(List<Split> parts) {
     this.parts = parts;
   }
   
-  Type getType() {
+  public Type getType() {
       return type;
   }
   
-  void setType(Type type) {
+  public void setType(Type type) {
     this.type = type;
   }
 }
