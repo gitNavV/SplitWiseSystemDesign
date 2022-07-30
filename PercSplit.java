@@ -1,16 +1,16 @@
 public class PercSplit extends Split {
-  int perc;
+  private final int perc;
   
-  PercSplit(Person person, int perc) {
+  public void PercSplit(Person person, int perc) {
     super(person);
     this.perc = perc;
   }
   
-  int getPerc() {
+  public int getPerc() {
       return perc;
   }
   
-  void setPerc(int perc) {
+  public void setPerc(int perc) {
     this.perc = perc;
   }
 }
