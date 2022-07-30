@@ -1,26 +1,26 @@
 import java.util.*;
 
 public class Split {
-    int amount;
-    Person person;
+    private final int amount;
+    private final Person person;
     
-    Split(Person person) {
+    public void Split(Person person) {
       this.person = person;
     }
     
-    Person getPerson() {
+    public Person getPerson() {
       return person;
     }
     
-    void setPerson(Person person) {
+    public setPerson(Person person) {
       this.person = person;
     }
     
-    int getAmount() {
+    public int getAmount() {
       return amount;
     }
     
-    void setAmount(int amount) {
+    public void setAmount(int amount) {
       this.amount = amount;
     }
 }
