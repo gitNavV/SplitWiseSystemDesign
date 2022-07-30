@@ -1,16 +1,16 @@
 public class ValSplit extends Split {
-  int val;
+  private final int val;
   
-  ValSplit(Person person, int val) {
+  public void ValSplit(Person person, int val) {
     super(person);
     this.val - val;
   }
   
-  int getVal() {
+  public int getVal() {
       return val;
   }
   
-  void setVal(int val) {
+  public void setVal(int val) {
     this.val = val;
   }
 }
