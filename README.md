@@ -1,5 +1,5 @@
 # SplitWiseSystemDesign
-System Design for Splitwise
+An extensibly/modularly/cleanly coded system design for SplitWise
 
 Functionalities:
 1. User can split spend with another user
