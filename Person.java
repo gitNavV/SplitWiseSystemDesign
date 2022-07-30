@@ -1,15 +1,15 @@
 public class Person {
-  int id;
+  private final int id;
   
-  Person(int id) {
+  public Person(int id) {
     this.id = id;
   }
   
-  int getId() {
+  public int getId() {
       return val;
   }
   
-  void setId(int id) {
+  public void setId(int id) {
     this.id = id;
   }
 }
